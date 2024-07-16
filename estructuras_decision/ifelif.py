@@ -7,28 +7,28 @@ Autor: Kevin Márquez
 marquezberriosk@gmail.com
 """
 
-myVar = -10
+number = -10
 
-if myVar > 0:
-    print('Soy mayor que 0')
-elif myVar < 0:
-    print('Soy menor que 0')
+if number > 0:
+    print('Greater than 0')
+elif number < 0:
+    print('Less than 0')
 else:
-    print('Soy el 0')
+    print('Is 0')
 
 if None:
-    print('Soy un print invisible')
+    print('I am invisible')
 elif []:
-    print('Soy otro print invisible')
+    print('I am invisible again')
 elif [1]:
-    print('Soy inevitable')
+    print('I am inevitable')
 
-if myVar < 0 and myVar > -20:
-    print('Estoy en el rango de -20 a 0')
+if number < 0 and number > -20:
+    print('I am in the range (-20 to 0)')
 
-if -20 < myVar < 0: # Equivalente a myVar < 0 and myVar > -20
-    print('Estoy en el rango de -20 a 0')
+if -20 < number < 0: # Equivalente a number < 0 and number > -20
+    print('I am in the range (-20 to 0)')
 
 # Convertir un número negativo a positivo
-mySecondVar = myVar * -1 if myVar < 0 else myVar 
-print(mySecondVar)
+positiveNumber = number * -1 if number < 0 else number 
+print(positiveNumber)

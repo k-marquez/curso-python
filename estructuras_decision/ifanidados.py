@@ -7,19 +7,19 @@ Autor: Kevin Márquez
 marquezberriosk@gmail.com
 """
 
-myList = []
+numbersList = []
 
-if len(myList) == 0:
-    myList = [1]
+if len(numbersList) == 0:
+    numbersList = [1]
 
-print(myList)
+print(numbersList)
 
-if len(myList): # Entra porque len(myList) != 0 = True
-    myList = [1, 3, 4]
+if len(numbersList): # Entra porque len(numbersList) != 0 = True
+    numbersList = [1, 3, 4]
     number = 11
-    if number in myList:
-        print('Hay un ' + str(number) + ' en la lista.')
+    if number in numbersList:
+        print('There is a ' + str(number) + ' on the list.')
     else:
-        print(f'No hay un {number} en la lista.') # Conocido como formatted string literal
+        print(f'There is no a {number} on the list.') # Conocido como formatted string literal
 
-print(myList)
+print(numbersList)

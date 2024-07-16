@@ -25,10 +25,9 @@ graderResults = [
 
 for evaluation in graderResults:
     id = evaluation['id']
-    print(f'El estudiante {classroom[id]} obtuvo una nota de {evaluation["evaluationResult"]} puntos.')
-
+    print(f'Student {classroom[id]} obtained a score of {evaluation["evaluationResult"]} points.')
 for key, value in classroom.items():
-    print(f'El estudiante {value} tiene asociado el id {key}.')
+    print(f'Student {value} has the id {key}.')
 
 for key in classroom.keys():
     print(key)
@@ -38,5 +37,3 @@ for value in classroom.values():
 
 for i in range(5):
     print(i)
-
-for i = 0, i
