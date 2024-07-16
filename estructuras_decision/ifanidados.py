@@ -1,3 +1,12 @@
+"""
+Curso Básico de Python 2024
+
+Caso de estudio: Sintaxis anidada de if / elif / else y str formateados.
+
+Autor: Kevin Márquez
+marquezberriosk@gmail.com
+"""
+
 myList = []
 
 if len(myList) == 0:

@@ -1,3 +1,12 @@
+"""
+Curso Básico de Python 2024
+
+Caso de estudio: Sintaxis del if / elif / else.
+
+Autor: Kevin Márquez
+marquezberriosk@gmail.com
+"""
+
 myVar = -10
 
 if myVar > 0:
