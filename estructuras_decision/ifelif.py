@@ -17,6 +17,9 @@ elif [1]:
 if myVar < 0 and myVar > -20:
     print('Estoy en el rango de -20 a 0')
 
+if -20 < myVar < 0: # Equivalente a myVar < 0 and myVar > -20
+    print('Estoy en el rango de -20 a 0')
+
 # Convertir un número negativo a positivo
 mySecondVar = myVar * -1 if myVar < 0 else myVar 
 print(mySecondVar)
