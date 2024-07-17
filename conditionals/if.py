@@ -1,9 +1,9 @@
 """
 Curso Básico de Python 2024
 
-Caso de estudio: Sintaxis del if / elif / else.
+Case study: Conditionals syntax examples.
 
-Autor: Kevin Márquez
+Author: Kevin Márquez
 marquezberriosk@gmail.com
 """
 

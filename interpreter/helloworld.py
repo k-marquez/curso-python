@@ -1,9 +1,9 @@
 """
 Curso Básico de Python 2024
 
-Caso de estudio: Ejecución de un programa con el intérprete.
+Case study: First Python program to show how run it.
 
-Autor: Kevin Márquez
+Author: Kevin Márquez
 marquezberriosk@gmail.com
 """
 

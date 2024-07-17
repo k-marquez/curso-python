@@ -1,9 +1,9 @@
 """
 Curso Básico de Python 2024
 
-Caso de estudio: Demostración de la sintaxis del for.
+Case study: Syntax example of for loop.
 
-Autor: Kevin Márquez
+Author: Kevin Márquez
 marquezberriosk@gmail.com
 """
 

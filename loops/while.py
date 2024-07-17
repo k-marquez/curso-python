@@ -1,9 +1,9 @@
 """
 Curso Básico de Python 2024
 
-Caso de estudio: Demostración de la sintaxis del while.
+Case study: Syntax example of while loop.
 
-Autor: Kevin Márquez
+Author: Kevin Márquez
 marquezberriosk@gmail.com
 """
 
@@ -14,10 +14,10 @@ while number < 10:
     number += 2
 
 """
-Los paréntesis son propios del anidamiento de la operación más que parte de la
-sintaxis del while
+The parentheses are typical of the nesting of the operation rather than
+part of the while syntax
 """
 while (number > 0):
     print(number)
     number -= 2
-    break # Salir del ciclo inmediatamente
+    break # Loop exit

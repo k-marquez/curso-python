@@ -1,9 +1,9 @@
 """
 Curso Básico de Python 2024
 
-Caso de estudio: Operadores.
+Case study: Operators.
 
-Autor: Kevin Márquez
+Author: Kevin Márquez
 marquezberriosk@gmail.com
 """
 
@@ -15,9 +15,9 @@ numbers = [1, 2]
 numbers2 = [3, 4]
 
 print(x1 + x2) # Suma
-print(myNameIs + name) # Concatenación
-#print(a + name) # Error, no se pueden sumar/concatenar str con int
-print(numbers + numbers2) # Creación de una nueva lista con los elementos de numbers2 añadidos a numbers
+print(myNameIs + name) # concatenation
+#print(x1 + name) # Error, cannot add/concatenate str with ints
+print(numbers + numbers2) # New list with elements of numbers2 joined to numbers
 
 x1 *= x2
 print(x1)
