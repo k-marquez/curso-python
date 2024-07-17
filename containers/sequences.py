@@ -22,7 +22,10 @@ print(food) # Apple, Lemon, Orange, Tomato...
 print(food[1:4:2]) # Lemon, Tomato
 print(food[::-1]) # Carrot, Tomato...
 
-# List example
+textToList = list("Hello world!") # Constructor receive an iterable object
+print(textToList)
+
+# String example
 text = 'These is a line of text'
 print(text[1]) # h
 #text[2] = "H" # Error, strings are immutable
@@ -32,6 +35,9 @@ print(len(text)) # 23
 appendText = ' and just little more'
 newText = text + appendText
 
+toText = str(186463)
+
+print(toText)
 print(newText) # These is a line of text and just little more
 print(newText[1:4:2]) # hs
 print(newText[::-1]) # erom elttil tsuj dna txet fo enil a si esehT
@@ -44,7 +50,7 @@ print(animals[0]) # Cat
 print(animals[0:3]) # Cat, Dog, Bird
 print(len(animals)) # 4
  
-moreAnimals = ("Horse", "Lion")
+moreAnimals = tuple(["Horse", "Lion"]) # Constructor receive an iterable object
 zoo = animals + moreAnimals
 
 print(zoo) # Cat, Dog, Bird, Mouse, Horse...
