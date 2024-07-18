@@ -16,7 +16,7 @@ print(fruits)
 fruits.add(15)
 print(fruits)
 
-fruits.update(["Mango", "Banana", "Pineaple"]) # Add n elements
+fruits.update(["Mango", "Banana", "Pineaple"]) # Add n elements, receive an iterable
 fruits.update({1111, 5, 10})
 print(fruits)
 
