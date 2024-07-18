@@ -40,3 +40,6 @@ print(X & Y)
 print(X.union(Y))
 print(Y.union(X))
 print(X | Y)
+
+customSet = set((1, "Hola", True, False, 0)) # Receive an iterable 1 = True, 0 = False
+print(customSet)
