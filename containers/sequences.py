@@ -11,7 +11,7 @@ marquezberriosk@gmail.com
 fruits = ["Apple", "Lemon", "Banana"]
 
 print(fruits[1]) # Lemon
-fruits[2] = "Orange"
+fruits[2] = "Orange" # Change an element
 print(fruits[1:3]) # Lemon, Orange
 print(len(fruits)) # 3
  
@@ -21,6 +21,18 @@ food = fruits + vegetables
 print(food) # Apple, Lemon, Orange, Tomato...
 print(food[1:4:2]) # Lemon, Tomato
 print(food[::-1]) # Carrot, Tomato...
+
+
+food.append("Potato") # Add one element at the end
+food.insert(4, "Onion") # Insert in specific index
+print(food)
+food.extend(["Peach", "Cherry", "Pear"]) # Add n elements at the end, argument is an iterable
+print(food)
+food.remove("Onion") # Removes the first occurrence
+food.pop(1) # Removes element in specific index, by default erase the last one
+print(food)
+food.clear()
+print(food)
 
 textToList = list("Hello world!") # Constructor receive an iterable object
 print(textToList)
@@ -35,12 +47,12 @@ print(len(text)) # 23
 appendText = ' and just little more'
 newText = text + appendText
 
-toText = str(186463)
-
-print(toText)
 print(newText) # These is a line of text and just little more
 print(newText[1:4:2]) # hs
 print(newText[::-1]) # erom elttil tsuj dna txet fo enil a si esehT
+
+toText = str(186463)
+print(toText)
 
 # Tuple example
 animals = ("Cat", "Dog", "Bird", "Mouse")
