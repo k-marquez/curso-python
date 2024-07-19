@@ -68,3 +68,10 @@ zoo = animals + moreAnimals
 print(zoo) # Cat, Dog, Bird, Mouse, Horse...
 print(zoo[1:4:2]) # Dog, Mouse
 print(zoo[::-1]) # Lion, Horse, Mouse... 
+
+
+# List Comprehension
+# Shorter syntax to create a new list based on another list
+oldList = [1, 10, 24, 258, 12, 5, 2, 8, 1239, 20]
+newList = [even for even in oldList if even % 2 == 0]
+print(newList)
